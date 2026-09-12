@@ -1,7 +1,7 @@
 // Copyright 2026 Skip
 // SPDX-License-Identifier: MPL-2.0
 
-#if SKIP_WEB
+#if SKIP_WEB && arch(wasm32)
 
 import JavaScriptKit
 import SkipUI
